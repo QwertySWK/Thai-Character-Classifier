@@ -14,4 +14,9 @@ env/
 Thumbs.db
 
 # Data files
-datasets
+datasets/*.zip
+datasets/consonants
+datasets/digits
+datasets/special_symbols
+datasets/tone_marks
+datasets/vowels
