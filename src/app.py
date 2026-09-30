@@ -32,7 +32,7 @@ app = gr.Interface(
     outputs=gr.Textbox(label="ผลการทำนาย (ตัวอักษร)"),
     title="Thai Character Classification",
     description="อัปโหลดรูปภาพตัวอักษรไทย สระ วรรณยุกต์ หรือตัวเลข เพื่อให้ AI ทำนาย (รองรับ 95 คลาส)",
-    allow_flagging="never"
+    flagging_mode="never"
 )
 
 if __name__ == "__main__":
