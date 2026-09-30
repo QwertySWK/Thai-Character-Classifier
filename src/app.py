@@ -4,6 +4,7 @@ import tensorflow as tf
 from PIL import Image
 import joblib
 import os
+import csv
 
 MODEL_PATH = os.path.join(os.path.dirname(__file__), 'thai_char_model.keras')
 LABEL_PATH = os.path.join(os.path.dirname(__file__), 'label_classes.joblib')
