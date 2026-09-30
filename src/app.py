@@ -44,7 +44,7 @@ def predict_image(img):
 app = gr.Interface(
     fn=predict_image,
     inputs=gr.Image(label="อัปโหลดรูปภาพตัวอักษรไทย"),
-    outputs=gr.Textbox(label="ผลการทำนาย (ตัวอักษร)", show_copy_button=True),
+    outputs=gr.Textbox(label="ผลการทำนาย (ตัวอักษร)"),
     title="Thai Character Classification",
     description="อัปโหลดรูปภาพตัวอักษรไทย สระ วรรณยุกต์ หรือตัวเลข เพื่อให้ AI ทำนายผล",
     flagging_mode="never"
