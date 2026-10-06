@@ -21,7 +21,7 @@
    .\env\Scripts\activate
 2. ติดตั้งแพ็กเกจที่จำเป็น:
    ```bash
-   pip install -r requirements.txt
+   pip install -r src/requirements.txt
 3. สั่งรันเว็บแอปพลิเคชัน Gradio
    ```bash
    python src/app.py
